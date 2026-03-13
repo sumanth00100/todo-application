@@ -1,28 +1,46 @@
-# Todo Application
+# TODO Application
 
-This is the Todo application repository.
+This application allows users to manage their tasks efficiently by providing functionality to create, update, delete, and view todo items.
 
-## Description
+## Features
+- Create a new todo item
+- Update an existing todo item
+- Delete a todo item
+- View all todo items
 
-A simple Todo application.
+## Requirements
+- Node.js (>= 14.x)
+- npm (>= 6.x)
 
-## Instructions
+## Installation
+1. Clone the repository:
+sh
+git clone https://github.com/sumanth00100/todo-application.git
 
-1. To initialize a new local Git repository for this project, run:
-   
-   git init
-   
 
-2. Create this repository on your preferred Git platform (e.g., GitHub, GitLab).
+2. Navigate to the project folder:
+sh
+cd todo-application
 
-3. Link the local repository to the remote repository:
-   
-   git remote add origin <remote-repository-URL>
-   
 
-4. Add project files, commit, and push to the remote repository:
-   
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-   
+3. Install dependencies:
+sh
+npm install
+
+
+## Running the Application
+Start the application by running:
+sh
+npm start
+
+
+The application will be live at `http://localhost:3000`.
+
+## Testing
+To run the tests:
+sh
+npm test
+
+
+## Environments
+Refer to the `.env.example` file to set up environment variables.
