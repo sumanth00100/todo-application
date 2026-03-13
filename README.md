@@ -1,28 +1,23 @@
 # Todo Application
 
-This is the Todo application repository.
+A simple todo application built using HTML, CSS, and JavaScript with localStorage. This app does not require a backend or database.
 
-## Description
+## Features
 
-A simple Todo application.
+- Add new todos
+- Mark todos as completed
+- Delete todos
+- Todos are stored in localStorage and persist across page reloads
 
-## Instructions
+## Installation
 
-1. To initialize a new local Git repository for this project, run:
-   
-   git init
-   
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your browser.
 
-2. Create this repository on your preferred Git platform (e.g., GitHub, GitLab).
+## How to Use
 
-3. Link the local repository to the remote repository:
-   
-   git remote add origin <remote-repository-URL>
-   
-
-4. Add project files, commit, and push to the remote repository:
-   
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-   
+1. Enter a todo item in the input field and click the **Add** button.
+2. The todo will appear below in the list.
+3. Click the **Complete** button next to a todo to mark it as completed.
+4. Click the **Delete** button next to a todo to remove it from the list.
+5. Refreshing the page will retain your todos using `localStorage`.
